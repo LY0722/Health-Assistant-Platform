@@ -1,0 +1,73 @@
+.record-page {
+  padding: 40rpx 30rpx;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 40rpx;
+}
+
+.label {
+  font-size: 30rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+  display: block;
+}
+
+.input-wrapper {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: $border-radius-lg;
+  padding: 20rpx 30rpx;
+  box-shadow: $card-shadow;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper input {
+  flex: 1;
+  font-size: 40rpx;
+  color: $primary-color;
+  padding-right: 80rpx;
+}
+
+.unit {
+  position: absolute;
+  right: 30rpx;
+  color: #999;
+  font-size: 28rpx;
+}
+
+.suggestion-section {
+  margin-bottom: 50rpx;
+  padding: 20rpx;
+  background: linear-gradient(135deg, rgba($primary-color, 0.05), rgba($secondary-color, 0.05));
+  border-radius: $border-radius-base;
+}
+
+.suggestion-title {
+  font-weight: bold;
+  color: #555;
+  margin-right: 10rpx;
+}
+
+.suggestion-content {
+  color: #777;
+  font-size: 26rpx;
+}
+
+.submit-btn {
+  background-color: $primary-color;
+  color: white;
+  font-size: 32rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 45rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 122, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2rpx);
+  box-shadow: 0 6rpx 16rpx rgba(0, 122, 255, 0.4);
+}

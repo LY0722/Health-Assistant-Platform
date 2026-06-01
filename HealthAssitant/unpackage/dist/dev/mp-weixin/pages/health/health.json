@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "健康仪表盘",
+  "usingComponents": {
+    "nav-bar": "../components/nav-bar"
+  }
+}

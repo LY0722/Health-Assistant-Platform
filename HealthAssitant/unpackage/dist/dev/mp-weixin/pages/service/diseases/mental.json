@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "心理健康",
+  "usingComponents": {
+    "nav-bar": "../../components/nav-bar"
+  }
+}

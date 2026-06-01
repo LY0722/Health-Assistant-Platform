@@ -1,0 +1,54 @@
+
+
+/* 文章列表样式 */
+.article-list.data-v-e2e814d1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20rpx;
+}
+.article-item.data-v-e2e814d1 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+.article-item.data-v-e2e814d1:hover {
+  transform: translateY(-5rpx);
+  box-shadow: 0 8rpx 24rpx rgba(0, 0, 0, 0.12);
+}
+.article-category.data-v-e2e814d1 {
+  display: inline-block;
+  padding: 6rpx 16rpx;
+  background-color: #e6f7ff;
+  color: #1890ff;
+  border-radius: 20rpx;
+  font-size: 22rpx;
+  margin-bottom: 20rpx;
+}
+.article-title.data-v-e2e814d1 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.4;
+}
+.article-footer.data-v-e2e814d1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.article-author.data-v-e2e814d1 {
+  font-size: 24rpx;
+  color: #666;
+}
+.article-more.data-v-e2e814d1 {
+  font-size: 24rpx;
+  color: #1890ff;
+  font-weight: 500;
+}

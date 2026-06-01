@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "儿科健康",
+  "usingComponents": {
+    "nav-bar": "../../components/nav-bar"
+  }
+}

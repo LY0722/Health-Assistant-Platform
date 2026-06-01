@@ -1,0 +1,192 @@
+
+.milestones-section.data-v-772f9bf3 {
+  margin-bottom: 40rpx;
+}
+.section-title.data-v-772f9bf3 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.milestones-slider.data-v-772f9bf3 {
+  display: flex;
+  overflow-x: auto;
+  gap: 20rpx;
+  padding-bottom: 20rpx;
+}
+.milestone-item.data-v-772f9bf3 {
+  background-color: white;
+  border-radius: 16rpx;
+  padding: 20rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.08);
+  min-width: 280rpx;
+  flex-shrink: 0;
+}
+.milestone-age.data-v-772f9bf3 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #5181ff;
+  margin-bottom: 10rpx;
+}
+.milestone-title.data-v-772f9bf3 {
+  font-size: 26rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+  display: block;
+}
+.milestone-desc.data-v-772f9bf3 {
+  font-size: 24rpx;
+  color: #666;
+  line-height: 1.4;
+}
+.vaccine-section.data-v-772f9bf3 {
+  margin-bottom: 40rpx;
+}
+.vaccine-card.data-v-772f9bf3 {
+  background-color: white;
+  border-radius: 20rpx;
+  overflow: hidden;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.08);
+}
+.vaccine-header.data-v-772f9bf3 {
+  background-color: #5181ff;
+  color: white;
+  padding: 20rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.vaccine-name.data-v-772f9bf3 {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.vaccine-date.data-v-772f9bf3 {
+  font-size: 26rpx;
+}
+.vaccine-body.data-v-772f9bf3 {
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.vaccine-image.data-v-772f9bf3 {
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 30rpx;
+}
+.vaccine-info.data-v-772f9bf3 {
+  flex: 1;
+}
+.vaccine-title.data-v-772f9bf3 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+  display: block;
+}
+.vaccine-desc.data-v-772f9bf3 {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.4;
+}
+.vaccine-button.data-v-772f9bf3 {
+  background-color: #5181ff;
+  color: white;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  padding: 15rpx 0;
+  width: 100%;
+  border: none;
+}
+.diseases-section.data-v-772f9bf3 {
+  margin-bottom: 40rpx;
+}
+.disease-cards.data-v-772f9bf3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20rpx;
+}
+.disease-card.data-v-772f9bf3 {
+  background-color: white;
+  border-radius: 16rpx;
+  overflow: hidden;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.08);
+}
+.disease-image.data-v-772f9bf3 {
+  width: 100%;
+  height: 200rpx;
+}
+.disease-name.data-v-772f9bf3 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  padding: 15rpx 20rpx 0;
+  display: block;
+}
+.disease-desc.data-v-772f9bf3 {
+  font-size: 24rpx;
+  color: #666;
+  padding: 10rpx 20rpx 20rpx;
+  line-height: 1.4;
+  display: block;
+}
+.experts-section.data-v-772f9bf3 {
+  margin-bottom: 60rpx;
+}
+.experts-list.data-v-772f9bf3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+.expert-item.data-v-772f9bf3 {
+  background-color: white;
+  border-radius: 16rpx;
+  padding: 20rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.expert-avatar.data-v-772f9bf3 {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.expert-info.data-v-772f9bf3 {
+  flex: 1;
+}
+.expert-name.data-v-772f9bf3 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  display: block;
+}
+.expert-title.data-v-772f9bf3 {
+  font-size: 26rpx;
+  color: #666;
+  display: block;
+}
+.expert-department.data-v-772f9bf3 {
+  font-size: 26rpx;
+  color: #666;
+  display: block;
+}
+.consult-button.data-v-772f9bf3 {
+  background-color: #5181ff;
+  color: white;
+  border-radius: 10rpx;
+  font-size: 26rpx;
+  padding: 10rpx 20rpx;
+  white-space: nowrap;
+}
+.nav-bar.data-v-772f9bf3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+.back-icon.data-v-772f9bf3 {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"settings.js","sources":["D:/AAADownload_soft/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvc2V0dGluZ3Mvc2V0dGluZ3MudnVl"],"sourcesContent":["import MiniProgramPage from 'C:/Users/26405/Desktop/code/HealthAssitant/pages/settings/settings.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;;;;;AACA,GAAG,WAAW,eAAe;"}

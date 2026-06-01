@@ -1,0 +1,61 @@
+
+.common-page.data-v-bd36e079 {
+  padding: 30rpx;
+  background-color: #f5f7fa;
+}
+.info-section.data-v-bd36e079 {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 30rpx;
+}
+.info-card.data-v-bd36e079 {
+  background-color: white;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+.info-card.data-v-bd36e079:active {
+  transform: scale(0.98);
+}
+.card-header.data-v-bd36e079 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.card-emoji.data-v-bd36e079 {
+  font-size: 40rpx;
+  margin-right: 20rpx;
+}
+.info-title.data-v-bd36e079 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #2c3e50;
+}
+.info-content.data-v-bd36e079 {
+  font-size: 26rpx;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15rpx;
+}
+.read-more.data-v-bd36e079 {
+  font-size: 24rpx;
+  color: #3498db;
+  text-align: right;
+  display: block;
+}
+
+/* 为不同卡片添加左侧边框颜色 */
+.info-card.data-v-bd36e079:nth-child(1) {
+  border-left: 8rpx solid #e74c3c;
+}
+.info-card.data-v-bd36e079:nth-child(2) {
+  border-left: 8rpx solid #3498db;
+}
+.info-card.data-v-bd36e079:nth-child(3) {
+  border-left: 8rpx solid #2ecc71;
+}
+.info-card.data-v-bd36e079:nth-child(4) {
+  border-left: 8rpx solid #f39c12;
+}

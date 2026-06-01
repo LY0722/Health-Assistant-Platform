@@ -1,0 +1,23 @@
+
+/* 原有样式保持不变 */
+.settings-page.data-v-8ada08f1 {
+  padding: 30rpx;
+}
+.title.data-v-8ada08f1 {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.setting-item.data-v-8ada08f1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #eee;
+}
+button.data-v-8ada08f1 {
+  padding: 10rpx 20rpx;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 10rpx;
+}

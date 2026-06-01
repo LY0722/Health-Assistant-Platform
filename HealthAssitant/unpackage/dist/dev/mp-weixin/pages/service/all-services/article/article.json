@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "医学百科",
+  "usingComponents": {
+    "nav-bar": "../../../components/nav-bar"
+  }
+}

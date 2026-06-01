@@ -1,0 +1,317 @@
+
+/* 基础样式 */
+.container.data-v-04910d43 {
+  padding: 20rpx;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+/* 顶部功能卡片 */
+.feature-cards.data-v-04910d43 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+  gap: 15rpx;
+}
+.feature-grid.data-v-04910d43 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15rpx;
+  margin-bottom: 20rpx;
+  height: 350rpx; /* 设置固定高度确保卡片大小一致 */
+}
+.card-content.data-v-04910d43 {
+  position: relative;
+  z-index: 2;
+  width: 60%;
+  padding: 30rpx; /* 调整内边距 */
+  padding-right: 0; /* 右侧不加内边距，让内容更靠左 */
+}
+.card-title-wrapper.data-v-04910d43 {
+  display: flex;
+  flex-direction: column;
+  gap: 8rpx;
+  margin-top: 0; /* 移除上边距 */
+  align-items: flex-start; /* 让文本左对齐 */
+}
+.feature-card.data-v-04910d43 {
+  border-radius: 16rpx;
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.1);
+}
+
+/* 大卡片样式（占据左侧两行） */
+.large-card.data-v-04910d43 {
+  position: relative;
+  overflow: hidden;
+  grid-row: span 2;
+  background: linear-gradient(135deg, #D6A3DC, #B28FCE);
+  padding: 0; /* 移除内边距，让内容可以更靠边 */
+}
+.card-image.data-v-04910d43 {
+  position: absolute;
+  right: 0;
+  bottom: 0; /* 图片底部对齐卡片底部 */
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  z-index: 1;
+  opacity: 0.8;
+  top: auto; /* 覆盖默认的top:0 */
+}
+
+/* 小卡片样式 */
+.small-card.data-v-04910d43 {
+  background: #FFB88C; /* 马卡龙橙色 */
+}
+
+
+/* 第三张卡片特殊样式 */
+.blue.data-v-04910d43 {
+  background: linear-gradient(135deg, #89CFF0, #6BB9F0); /* 蓝色渐变 */
+}
+.card-icon.data-v-04910d43 {
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: 10rpx;
+}
+.card-title.data-v-04910d43 {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 2rpx 4rpx rgba(0,0,0,0.2);
+  line-height: 1.2; /* 调整行高 */
+}
+.card-subtitle.data-v-04910d43 {
+  font-size: 28rpx;
+  color: rgba(255,255,255,0.9);
+  text-shadow: 0 2rpx 4rpx rgba(0,0,0,0.2);
+  line-height: 1.2;
+}
+.card-desc.data-v-04910d43 {
+  font-size: 24rpx;
+  color: #666;
+}
+
+/* 健康指标导航 */
+.health-nav.data-v-04910d43 {
+  display: flex;
+  background: white;
+  border-radius: 12rpx;
+  padding: 15rpx;
+  margin-bottom: 20rpx;
+}
+.nav-item.data-v-04910d43 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rpx;
+  border-radius: 8rpx;
+}
+.nav-item.active.data-v-04910d43 {
+  background-color: #e6f7ff;
+}
+.nav-icon.data-v-04910d43 {
+  width: 50rpx;
+  height: 50rpx;
+  margin-bottom: 8rpx;
+}
+.nav-text.data-v-04910d43 {
+  font-size: 26rpx;
+  color: #333;
+}
+
+/* 内容区域 */
+.content-area.data-v-04910d43 {
+  background: white;
+  border-radius: 12rpx;
+  padding: 25rpx;
+}
+.metric-panel.data-v-04910d43 {
+  display: flex;
+  flex-direction: column;
+  gap: 30rpx;
+}
+.current-value.data-v-04910d43 {
+  display: flex;
+  flex-direction: column;
+  gap: 10rpx;
+}
+.label.data-v-04910d43 {
+  font-size: 28rpx;
+  color: #666;
+}
+.value.data-v-04910d43 {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #1890ff;
+}
+.update-time.data-v-04910d43 {
+  font-size: 24rpx;
+  color: #999;
+}
+
+/* 血压范围样式 */
+.bp-range.data-v-04910d43 {
+  margin-bottom: 20rpx;
+}
+.range-title.data-v-04910d43 {
+  font-size: 26rpx;
+  color: #666;
+  margin-bottom: 10rpx;
+}
+.range-visual.data-v-04910d43 {
+  display: flex;
+  height: 80rpx;
+  border-radius: 40rpx;
+  overflow: hidden;
+}
+.range.data-v-04910d43 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rpx;
+}
+.range.low.data-v-04910d43 {
+  background-color: #e6f7ff;
+  color: #1890ff;
+}
+.range.normal.data-v-04910d43 {
+  background-color: #f6ffed;
+  color: #52c41a;
+}
+
+/* 血糖范围样式 */
+.glucose-ranges.data-v-04910d43 {
+  display: flex;
+  gap: 15rpx;
+  margin: 20rpx 0;
+}
+.glucose-range.data-v-04910d43 {
+  flex: 1;
+  padding: 20rpx;
+  border-radius: 8rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.glucose-range.fasting.data-v-04910d43 {
+  background-color: #e6f7ff;
+  color: #1890ff;
+}
+.glucose-range.postprandial.data-v-04910d43 {
+  background-color: #f6ffed;
+  color: #52c41a;
+}
+
+/* 体重输入样式 */
+.weight-input-group.data-v-04910d43 {
+  display: flex;
+  gap: 15rpx;
+  margin: 15rpx 0;
+}
+.weight-input.data-v-04910d43 {
+  flex: 1;
+  border: 1rpx solid #eee;
+  padding: 15rpx;
+  border-radius: 8rpx;
+  font-size: 32rpx;
+}
+.save-btn.data-v-04910d43 {
+  background-color: #1890ff;
+  color: white;
+  border-radius: 8rpx;
+  padding: 0 30rpx;
+  font-size: 28rpx;
+}
+
+/* BMI图表样式 */
+.bmi-chart.data-v-04910d43 {
+  display: flex;
+  margin-top: 20rpx;
+  border-radius: 8rpx;
+  overflow: hidden;
+  border: 1rpx solid #eee;
+}
+.bmi-range.data-v-04910d43 {
+  flex: 1;
+  padding: 15rpx;
+  text-align: center;
+  border-right: 1rpx solid #eee;
+  display: flex;
+  flex-direction: column;
+}
+.bmi-range.data-v-04910d43:last-child {
+  border-right: none;
+}
+.bmi-range.underweight.data-v-04910d43 {
+  background-color: #e6f7ff;
+}
+.bmi-range.normal.data-v-04910d43 {
+  background-color: #f6ffed;
+}
+.bmi-range.overweight.data-v-04910d43 {
+  background-color: #fff7e6;
+}
+.bmi-range.obese.data-v-04910d43 {
+  background-color: #fff2f0;
+}
+.bmi-range.current-range.data-v-04910d43 {
+  background-color: #1890ff;
+  color: white;
+}
+
+/* 步数进度条样式 */
+.progress-container.data-v-04910d43 {
+  position: relative;
+  height: 60rpx;
+  background-color: #f0f0f0;
+  border-radius: 30rpx;
+  margin: 25rpx 0;
+  overflow: hidden;
+}
+.progress-bar.data-v-04910d43 {
+  height: 100%;
+  background-color: #52c41a;
+  transition: width 0.3s ease;
+}
+.progress-text.data-v-04910d43 {
+  position: absolute;
+  right: 20rpx;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+/* 提示信息样式 */
+.tips-title.data-v-04910d43, .section-title.data-v-04910d43 {
+  font-weight: bold;
+  font-size: 28rpx;
+  margin-bottom: 15rpx;
+  display: block;
+}
+.tip.data-v-04910d43 {
+  display: block;
+  font-size: 26rpx;
+  color: #666;
+  margin-bottom: 8rpx;
+}
+.step-goal.data-v-04910d43 {
+  font-size: 28rpx;
+  color: #666;
+}
+.weight-status.data-v-04910d43 {
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 15rpx;
+  display: block;
+}

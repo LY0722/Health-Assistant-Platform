@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "糖尿病康复",
+  "usingComponents": {
+    "nav-bar": "../../components/nav-bar"
+  }
+}

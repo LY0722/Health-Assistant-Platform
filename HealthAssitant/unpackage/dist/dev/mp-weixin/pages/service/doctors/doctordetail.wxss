@@ -1,0 +1,251 @@
+
+.doctor-detail-page.data-v-da61c4d7 {
+  padding-top: calc(120rpx + var(--status-bar-height)); /* 增加这一行 */
+  padding-bottom: 120rpx;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.common-navbar.data-v-da61c4d7 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 120rpx;
+  padding-top: var(--status-bar-height);
+  background-color: #537BFF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 医生卡片样式 */
+.doctor-card.data-v-da61c4d7 {
+  background-color: white;
+  padding: 40rpx 30rpx;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx; /* 修改圆角 */
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.05);
+  margin-top: 0; /* 确保没有额外的上边距 */
+}
+.doctor-header.data-v-da61c4d7 {
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.doctor-avatar.data-v-da61c4d7 {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  border: 4rpx solid #f1f1f1;
+  margin-right: 30rpx;
+}
+.doctor-meta.data-v-da61c4d7 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.doctor-name.data-v-da61c4d7 {
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 8rpx;
+}
+.doctor-title.data-v-da61c4d7,
+.doctor-department.data-v-da61c4d7 {
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 8rpx;
+}
+.doctor-tags.data-v-da61c4d7 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15rpx;
+}
+.tag.data-v-da61c4d7 {
+  font-size: 22rpx;
+  color: #537BFF;
+  background-color: #e6f0ff;
+  padding: 6rpx 15rpx;
+  border-radius: 30rpx;
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+/* 医生统计数据 */
+.doctor-stats.data-v-da61c4d7 {
+  display: flex;
+  justify-content: space-around;
+  padding: 20rpx 0;
+  border-top: 1rpx solid #f1f1f1;
+  border-bottom: 1rpx solid #f1f1f1;
+  margin: 20rpx 0;
+}
+.stat-item.data-v-da61c4d7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stat-value.data-v-da61c4d7 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #537BFF;
+}
+.stat-label.data-v-da61c4d7 {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 5rpx;
+}
+
+/* 区块样式 */
+.section.data-v-da61c4d7 {
+  background-color: white;
+  margin-bottom: 20rpx;
+  padding: 30rpx;
+  border-radius: 12rpx;
+}
+.section-header.data-v-da61c4d7 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25rpx;
+}
+.section-title.data-v-da61c4d7 {
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-left: 10rpx;
+}
+.section-more.data-v-da61c4d7 {
+  font-size: 24rpx;
+  color: #537BFF;
+  margin-left: auto;
+}
+.section-content.data-v-da61c4d7 {
+  padding-left: 30rpx;
+}
+.doctor-introduction.data-v-da61c4d7 {
+  font-size: 28rpx;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* 专业擅长 */
+.expertise-item.data-v-da61c4d7 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+}
+.expertise-item text.data-v-da61c4d7 {
+  margin-left: 10rpx;
+}
+
+/* 出诊信息 */
+.schedule.data-v-da61c4d7 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.schedule-day.data-v-da61c4d7 {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25rpx;
+}
+.day-name.data-v-da61c4d7 {
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-bottom: 5rpx;
+}
+.day-time.data-v-da61c4d7 {
+  font-size: 24rpx;
+  color: #666;
+  margin-bottom: 5rpx;
+}
+.day-status.data-v-da61c4d7 {
+  font-size: 22rpx;
+  padding: 4rpx 12rpx;
+  border-radius: 30rpx;
+  background-color: #f1f1f1;
+  color: #999;
+}
+.day-status.available.data-v-da61c4d7 {
+  background-color: #e6f7e6;
+  color: #52c41a;
+}
+
+/* 评价样式 */
+.reviews.data-v-da61c4d7 {
+  margin-top: 20rpx;
+}
+.review-item.data-v-da61c4d7 {
+  display: flex;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #f1f1f1;
+}
+.review-item.data-v-da61c4d7:last-child {
+  border-bottom: none;
+}
+.review-avatar.data-v-da61c4d7 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.review-content.data-v-da61c4d7 {
+  flex: 1;
+}
+.review-header.data-v-da61c4d7 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+.review-name.data-v-da61c4d7 {
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-right: 20rpx;
+}
+.review-rating.data-v-da61c4d7 {
+  display: flex;
+}
+.review-text.data-v-da61c4d7 {
+  font-size: 26rpx;
+  line-height: 1.5;
+  margin-bottom: 10rpx;
+}
+.review-time.data-v-da61c4d7 {
+  font-size: 22rpx;
+  color: #999;
+}
+
+/* 底部操作栏 */
+.action-bar.data-v-da61c4d7 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100rpx;
+  display: flex;
+  background-color: white;
+  box-shadow: 0 -2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.action-btn.data-v-da61c4d7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+}
+.follow-btn.data-v-da61c4d7 {
+  width: 180rpx;
+  color: #666;
+  border-right: 1rpx solid #f1f1f1;
+}
+.consult-btn.data-v-da61c4d7 {
+  flex: 1;
+  background-color: #FF9500;
+  color: white;
+}
+.appoint-btn.data-v-da61c4d7 {
+  flex: 1;
+  background-color: #537BFF;
+  color: white;
+}

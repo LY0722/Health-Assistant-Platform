@@ -1,0 +1,176 @@
+{
+  "pages": [
+    {
+      "path": "pages/service/service",
+      "style": {
+        "navigationBarTitleText": "服务"
+      }
+    },
+        {
+      "path": "pages/service/all-services/article/article",
+      "style": {
+        "navigationBarTitleText": "医学百科"
+      }
+    },
+            {
+      "path": "pages/service/all-services/article/articledetail",
+      "style": {
+        "navigationBarTitleText": "医学百科文章详情页"
+      }
+    },
+    {
+      "path": "pages/service/all-services/assessment/assessment",
+      "style": {
+        "navigationBarTitleText": "健康评测"
+      }
+    },
+    {
+      "path": "pages/service/all-services/rights/rights",
+      "style": {
+        "navigationBarTitleText": "我的权益"
+      }
+    },
+        {
+      "path": "pages/service/all-services/news/news",
+      "style": {
+        "navigationBarTitleText": "新闻资讯"
+      }
+    },
+        {
+      "path": "pages/service/all-services/news/newsDetail",
+      "style": {
+        "navigationBarTitleText": "新闻资讯详情"
+      }
+    },
+    {
+      "path": "pages/service/diseases/pediatrics",
+      "style": {
+        "navigationBarTitleText": "儿科健康"
+      }
+    },
+    {
+      "path": "pages/service/diseases/hypertension",
+      "style": {
+        "navigationBarTitleText": "高血压康复"
+      }
+    },
+    {
+      "path": "pages/service/diseases/diabetes",
+      "style": {
+        "navigationBarTitleText": "糖尿病康复"
+      }
+    },
+    {
+      "path": "pages/service/diseases/dermatology",
+      "style": {
+        "navigationBarTitleText": "皮肤病康复"
+      }
+    },
+    {
+      "path": "pages/service/diseases/mental",
+      "style": {
+        "navigationBarTitleText": "心理健康"
+      }
+    },
+    {
+      "path": "pages/service/doctors/doctors",
+      "style": {
+        "navigationBarTitleText": "医生列表"
+      }
+    },
+    {
+      "path": "pages/service/doctors/doctordetail",
+      "style": {
+        "navigationBarTitleText": "医生详情"
+      }
+    },
+    {
+      "path": "pages/health/health",
+      "style": {
+        "navigationBarTitleText": "健康仪表盘"
+      }
+    },
+    {
+      "path": "pages/store/store",
+      "style": {
+        "navigationBarTitleText": "商城"
+      }
+    },
+    {
+      "path": "pages/store/detail",
+      "style": {
+        "navigationBarTitleText": "商品详情"
+      }
+    },
+    {
+      "path": "pages/user/user",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "disableScroll": true  
+      }
+    },
+        {
+      "path": "pages/user/settings/settings",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+        {
+      "path": "pages/user/register",
+      "style": {
+        "navigationBarTitleText": "注册"
+      }
+    },
+        {
+      "path": "pages/user/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    }
+
+
+    
+  ],
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#f9f9f9"
+  },
+  "easycom": {
+  "autoscan": true,
+  "custom": {
+    "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+  }
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#537bff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/service/service",
+        "text": "服务",
+        "iconPath": "static/icon/navi/service_default.png",
+        "selectedIconPath": "static/icon/navi/service_active.png"
+      },
+      {
+        "pagePath": "pages/health/health",
+        "text": "健康",
+        "iconPath": "static/icon/navi/health_default.png",
+        "selectedIconPath": "static/icon/navi/health_active.png"
+      },
+      {
+        "pagePath": "pages/store/store",
+        "text": "商城",
+        "iconPath": "static/icon/navi/shopping_default.png",
+        "selectedIconPath": "static/icon/navi/shopping_active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/icon/navi/myselft_default.png",
+        "selectedIconPath": "static/icon/navi/myselft_active.png"
+      }
+    ]
+  }
+}

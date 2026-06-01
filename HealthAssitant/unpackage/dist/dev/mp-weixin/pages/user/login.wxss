@@ -1,0 +1,115 @@
+
+.login-container.data-v-6163e5ce {
+  min-height: 100vh;
+  background-color: #F5F7FA;
+}
+.login-header.data-v-6163e5ce {
+  padding: 60rpx 40rpx;
+  padding-top: 160rpx; /* 增加顶部间距 */
+  border-bottom-left-radius: 40rpx;
+  border-bottom-right-radius: 40rpx;
+  color: #fff;
+  background: linear-gradient(135deg, #00B4D8, #0083B0);
+}
+.welcome-text.data-v-6163e5ce {
+  font-size: 48rpx;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10rpx;
+}
+.sub-text.data-v-6163e5ce {
+  font-size: 28rpx;
+  opacity: 0.9;
+}
+.login-form.data-v-6163e5ce {
+  padding: 60rpx 40rpx;
+  margin: 40rpx;
+  margin-top: -40rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 1;
+}
+.form-item.data-v-6163e5ce {
+  display: flex;
+  align-items: center;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #f1f1f1;
+}
+.form-icon.data-v-6163e5ce {
+  font-size: 36rpx;
+  margin-right: 20rpx;
+}
+.eye-icon.data-v-6163e5ce {
+  margin-left: 20rpx;
+  margin-right: 0;
+}
+.form-input.data-v-6163e5ce {
+  flex: 1;
+  font-size: 28rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.forgot-password.data-v-6163e5ce {
+  margin-top: 20rpx;
+  text-align: right;
+  font-size: 24rpx;
+  color: #999;
+}
+.login-btn.data-v-6163e5ce {
+  background-color: #00B4D8;
+  color: #fff;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 45rpx;
+  font-size: 32rpx;
+  margin-top: 60rpx;
+}
+.register-link.data-v-6163e5ce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40rpx;
+  font-size: 26rpx;
+  color: #666;
+}
+.register-text.data-v-6163e5ce {
+  color: #00B4D8;
+  margin-left: 10rpx;
+}
+.other-login-methods.data-v-6163e5ce {
+  margin: 60rpx 40rpx 0;
+}
+.divider.data-v-6163e5ce {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+.divider-line.data-v-6163e5ce {
+  flex: 1;
+  height: 1rpx;
+  background-color: #e5e5e5;
+}
+.divider-text.data-v-6163e5ce {
+  padding: 0 20rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+.methods.data-v-6163e5ce {
+  display: flex;
+  justify-content: space-around;
+}
+.method-item.data-v-6163e5ce {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.method-icon.data-v-6163e5ce {
+  font-size: 50rpx;
+}
+.method-text.data-v-6163e5ce {
+  font-size: 24rpx;
+  color: #666;
+  margin-top: 10rpx;
+}
