@@ -1,1 +1,0 @@
-<view class="common-navbar data-v-d877ba5c"><image wx:if="{{a}}" class="back-icon data-v-d877ba5c" src="{{b}}" bindtap="{{c}}"/><text class="title data-v-d877ba5c">{{d}}</text></view>

@@ -1,1 +1,0 @@
-{"version":3,"file":"report.js","sources":["D:/AAADownload_soft/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvcmVwb3J0L3JlcG9ydC52dWU"],"sourcesContent":["import MiniProgramPage from 'C:/Users/26405/Desktop/code/HealthAssitant/pages/report/report.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AACA,GAAG,WAAW,eAAe;"}

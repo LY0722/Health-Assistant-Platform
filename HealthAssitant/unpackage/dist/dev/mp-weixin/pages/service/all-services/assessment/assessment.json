@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "健康评测",
-  "usingComponents": {
-    "nav-bar": "../../../components/nav-bar"
-  }
-}

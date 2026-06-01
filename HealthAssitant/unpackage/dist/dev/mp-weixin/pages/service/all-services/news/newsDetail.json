@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "新闻资讯详情",
-  "usingComponents": {
-    "nav-bar": "../../../components/nav-bar",
-    "uni-icons": "../../../../node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons"
-  }
-}
